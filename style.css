@@ -1,0 +1,50 @@
+.containers {
+  width: 69% !important;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logonun {
+  background-color: #ffcb0c !important;
+}
+
+.ticari {
+  color: #ffcb0c !important;
+}
+
+.ticari-md {
+  display: none !important;
+}
+
+.uyeol {
+  padding: 9px !important;
+}
+
+::placeholder {
+  color: black !important;
+}
+
+@media screen and (max-width:1180px) {
+  .ticari-md {
+    display: block !important;
+    color: #ffcb0c !important;
+  }
+
+  .ticari {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .containers {
+    width: 100% !important;
+  }
+
+
+}
